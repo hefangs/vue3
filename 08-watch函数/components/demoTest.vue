@@ -85,7 +85,7 @@ export default {
     //   console.log(newVal, oldVal)
     // })
 
-    //特殊情况：
+    //特殊情况：如果当前监视的job是一个对象，需要增加deep: true
     watch(
       () => person.job,
       (newVal, oldVal) => {
