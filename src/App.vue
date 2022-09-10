@@ -1,20 +1,11 @@
 <template>
-  <h1>1</h1>
+  <demoTest />
 </template>
 
 <script>
+import demoTest from "./components/demoTest"
 export default {
-  name: "App"
+  name: "App",
+  components: { demoTest }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
