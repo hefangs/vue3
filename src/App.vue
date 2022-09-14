@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h2>我是App组件:{{ name }}---{{ price }}</h2>
+    <h2>我是App组件:{{ name }}----{{ price }}</h2>
     <Child />
   </div>
 </template>
