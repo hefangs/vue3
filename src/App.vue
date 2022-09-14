@@ -26,6 +26,7 @@ export default {
 <style>
 .app {
   background: gray;
+
   padding: 20px;
 }
 </style>
