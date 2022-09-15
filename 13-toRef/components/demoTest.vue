@@ -9,7 +9,7 @@
   <button @click="salary++">涨薪</button>
 </template>
 <script>
-import { reactive, toRef } from "vue"
+import { reactive, toRef, ref } from "vue"
 export default {
   name: "demoTest",
   setup() {
